@@ -1,0 +1,13 @@
+{
+  "name": "playwright-docker-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "PLAYWRIGHT_DOCKER=true playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.19.2",
+    "playwright": "^1.19.2"
+  }
+}
